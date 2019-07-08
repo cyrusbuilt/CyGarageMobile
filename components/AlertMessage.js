@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Platform, Text, View, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 
 const AlertStyles = StyleSheet.create({
@@ -17,7 +17,7 @@ const AlertStyles = StyleSheet.create({
     messageText: {
         flex: 1,
         color: 'black',
-        fontFamily: 'Montserrat-Regular',
+        fontFamily: Platform.OS == 'android' ? 'normal' : 'Arial',
         fontSize: 18,
         fontWeight: 'bold',
         paddingLeft: 5,
