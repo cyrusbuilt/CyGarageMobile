@@ -2,11 +2,8 @@ package net.cyrusbuilt.cygaragemobile;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
-import com.facebook.react.ReactPackage;
 import com.facebook.react.ReactRootView;
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
-
-import java.util.List;
 
 public class MainActivity extends ReactActivity {
 

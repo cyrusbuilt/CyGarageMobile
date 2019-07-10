@@ -1,2 +1,3 @@
 # CyGarageMobile
-Mobile app for CyGarage (iOS and Android)
+
+Mobile app for [CyGarage](https://github.com/cyrusbuilt/CyGarage) (iOS and Android).
